@@ -1,6 +1,7 @@
 * {
     Margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 html,body {
@@ -24,7 +25,6 @@ header  {
     "header header"
     "producto producto"
     "footer footer";
-    grid-template-rows: 1fr auto 1fr;
 
 }
 
@@ -292,13 +292,17 @@ nav{
     margin-top: -60px;
 }
 
-
+.productFlex{
+    flex-direction: column;
+}
     
 .product{
-    height: 400px;
-    width: 370px;
+    height: 480px;
+    width: 450px;
     background-size: 110ch;
 }
+
+
 
 h1{
     font-size: 6rem;
