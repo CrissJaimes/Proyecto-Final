@@ -10,93 +10,94 @@
         <link rel="shortcut icon" href="img/icono.jpg">
         <link rel="stylesheet" href="./css/style.css">
     </head>
-<body>
-    <header>
-        <div class="center" > <img class="img_logo" src="img/logoOneTrajes.png" alt="logo One Trajes"></div>
-
-        
-            <nav class="center">
-                <ul>
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./ambos.html">Ambos</a></li>
-                    <li><a href="./pantalones.html">Pantalones</a></li>
-                    <li><a href="./blazzers.html">Blazzers</a></li>
-                    <li><a href="./camisas.html">Camisas</a></li>
-                    <li><a href="./indumentaria.html" >Otra indumentaria</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-    </header>
-<hr>
-<main>
-<h1 class="center">Otras indumentarias de nuestro catálogo</h1>
-
-<div class="separacion center">
-    <p class="product" >Producto1</p>
-    <p class="product">Produto2</p>
-    <p class="product">Produto3</p>
-    <p class="product">Produto4</p>
-</div>
-
-<div class="separacion center">
-    <p class="product" >Producto5</p>
-    <p class="product">Produto6</p>
-    <p class="product">Produto7</p>
-    <p class="product">Produto8</p>
-</div>
-
-<div class="separacion center">
-    <p class="product" >Producto9</p>
-    <p class="product">Produto10</p>
-    <p class="product">Produto11</p>
-    <p class="product">Produto12</p>
-</div>
+    <body >
+        <div class="grid-container">
+            <header>
+                <div class="center" > <img class="img_logo" src="img/logoOneTrajes.png" alt="logo One Trajes"></div>
+                
     
-<div class="center">
-    <img class="img_cuotas_sin_interes" src="img/3-6-12-cuotas-sin-interes.png" alt="cuotas sin interes">
-</div>
-</main>
-<hr>
-<footer  id="contacto">
-    <br>
-    <div class="separacion">
-        <div class="center">
-            <form  action="" method="post">
-                <label for="correo_electronico"> <h3>Suscribete a nuestro Newsletter para recibir todas las novedades</h3>.</label>
-                <input class="email_box" type="email" placeholder="Ingresa tu email" id="correo_electronico">
-        </div>
-
-        <div class="separacion center">
-                <label> 
-                    <input type="checkbox" value="hombre">
-                    <span>HOMBRE</span>
-                </label>
-                <label>
-                    <input type="checkbox" value="mujer">
-                    <span>MUJER</span>
-                </label>
-                <label >
-                    <input type="checkbox" value="niño/a">
-                    <span>NIÑO/A</span>
-                </label>
-
-                <div class="separacion center">
-                    <input  class="submit__botton" type="submit" value="Suscribirme">
+                
+                    <nav class="center">
+                        <ul>
+                            <li><a href="./index.html">Inicio</a></li>
+                            <li><a href="./ambos.html">Ambos</a></li>
+                            <li><a href="./pantalones.html">Pantalones</a></li>
+                            <li><a href="./blazers.html">Blazers</a></li>
+                            <li><a href="./camisas.html">Camisas</a></li>
+                            <li><a href="./indumentaria.html" >Otra indumentaria</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </nav>
+            </header>
+        <section id="producto">
+        <hr>
+        <main>
+            <h1 class="center">Otras indumentarias de nuestro catálogo</h1>
+    
+        
+            <div class="productFlex">
+                <div class="productOrder">
+                    <p class="product" >Producto1</p>
+                    <p class="product">Producto2</p>
+                    <p class="product">Producto3</p>
+                    <p class="product">Producto4</p>
                 </div>
-            </form>
+                <div class="productOrder">
+                    <p class="product" >Producto5</p>
+                    <p class="product">Producto6</p>
+                    <p class="product">Producto7</p>
+                    <p class="product">Producto8</p>
+                </div>
+            </div>
+    
+        <div class="center">
+            <img class="img_cuotas_sin_interes" src="img/3-6-12-cuotas-sin-interes.png" alt="cuotas sin interes">
         </div>
-    </div>
-
-    <div class="center">
-        <h2>Seguinos en nuestras redes sociales:</h2>
-        <br>
-        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-        <br><br>
-        <a href="https://www.facebook.com" target="_blank">Facebook</a>
-        <br><br>
-        © Todos los derechos reservados
-    </div>
-</footer>
-</body>
+        </main>
+        <hr>
+        </section>
+            <footer  id="contacto">
+                
+                <div class="separacion">
+                    <div class="center">
+                        <form  action="" method="post">
+                            <label  for="correo_electronico"> <h3>Suscribete a nuestro Newsletter para recibir todas las novedades</h3>.</label>
+                            <input class="email_box" type="email" placeholder="Ingresa tu email" id="correo_electronico">
+                    </div>
+    
+                    <div class="separacion center">
+                            <label> 
+                                <input class="checkbox" type="checkbox" value="hombre">
+                                <span>HOMBRE</span>
+                            </label>
+                            <label>
+                                <input class="checkbox" type="checkbox" value="mujer">
+                                <span>MUJER</span>
+                            </label>
+                            <label >
+                                <input class="checkbox" type="checkbox" value="niño/a">
+                                <span>NIÑO/A</span>
+                            </label>
+    
+                            <div class="separacion center">
+                                <input  class="submit__botton" type="submit" value="Suscribirme">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    
+                <div class="center separacion">
+                    <h2>Seguinos en nuestras redes sociales:</h2>
+                    <div class="separacion">
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    </div>
+                    <div class="separacion">
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                    </div>
+                    <p> © Todos los derechos reservados </p>
+                </div>
+            </footer>
+        </div>
+    </body>
 
 </html>
